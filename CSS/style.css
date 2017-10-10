@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:300|Playfair+Display');
+
+*, *:before, *:after {
+	box-sizing: border-box;
+	text-decoration: none;
+}
+
+html {
+	height: 100%;
+}
+
+html, body {
+	min-height: 100%;
+}
+
+body {
+	margin: 0;
+	background-color: #FFF;
+	color: black;
+}
+
+div {
+	display: block;
+}
+
+.ba-container {
+	margin: 0 auto;
+	max-width: 1400px;
+	padding: 130px 20px;
+	text-align: justify;
+}
+
+.ba-main {
+	background-color: #FFF;
+	box-shadow: 0px 4px 68px 0px rgba(0, 0, 0, 0.1);
+	width: 1400px;
+	padding: 100px 120px 120px 120px;
+
+}
+
+.ba-title {
+	font-family: 'Playfair Display', serif;
+}
+h1 {
+ 	color: #171717;
+ 	font-size: 40px;
+ 	font-weight: 400;
+ 	text-align: left;
+}
+
+.ba-button {
+	border-width: 2px;
+	border-color: #eaa258;
+	border-style: solid;
+	width: 260px;
+	height: 64px;
+}
+
+.ba-paragraph-one {
+	font-family: 'Lato', serif;
+	color:  #171717;
+	font-size: 18px;
+	font-weight: 300;
+	line-height: 34px;
+	text-align: left;
+}
+
+.ba-paragraph {
+	font-family: 'Lato', serif;
+	color:  #171717;
+	font-size: 18px;
+	font-weight: 300;
+	line-height: 40px;
+	text-align: left;
+}
+
+.ba-quote {
+	font: 300 20px/1.4 'Lato', sans-serif;
+	font-style: italic;
+	margin: 0;
+	margin-bottom: 40px;
+	color: #a9a9a9;
+}
+
+.ba-quote:before {
+    content: "\201C ";
+    font-size: 50px;
+    margin-right: 25px;
+}
+
+.ba-button {
+		display: inline-block;
+	    color: #eaa258;
+	    text-transform: uppercase;
+	    font-family: 'Lato', sans-serif;
+	    font-size: 18px;
+	    border: 2px solid #eaa258;
+	    text-decoration: none;
+	    padding: 20px 80px;
+}
+
+.ba-paragraph-one:first-letter {
+    color: #000000;
+    font-size: 110px;
+    font-family: 'Playfair Display', serif;
+    float: left;
+    margin: -65px 35px -60px 25px;
+}
+
+.ba-content {
+	font: 300 20px/1.8 'Lato', sans-serif;
+	color: grey;
+	letter-spacing: 0.05em;
+}
